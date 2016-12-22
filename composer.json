@@ -1,0 +1,14 @@
+{
+  "name": "wearejh/m2-core-bug-reports",
+  "description": "JH M2 Core Bug Fix - Low Stock Exports not working",
+  "type": "magento2-module",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Jh\\CoreBugReports\\": ""
+    }
+  }
+}
